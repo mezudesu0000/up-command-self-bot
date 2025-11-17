@@ -4,8 +4,8 @@ from flask import Flask
 import threading
 
 TOKEN = os.environ.get('USER_TOKEN')
-CHANNEL_ID = 1234567890123456789
-CMD_ID = 9876543210987654321
+CHANNEL_ID = 1421271498785685554
+CMD_ID = 1363739182672904354
 
 client = discord.Client(intents=discord.Intents.default())
 app = Flask(__name__)
