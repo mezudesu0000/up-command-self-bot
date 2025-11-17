@@ -7,7 +7,7 @@ TOKEN = os.environ.get('USER_TOKEN')
 CHANNEL_ID = 1421271498785685554
 CMD_ID = 1363739182672904354
 
-client = discord.Client(intents=discord.Intents.default())
+client = discord.Client(intents=discord.Intents.default())  # discord.py-self 用 Client
 app = Flask(__name__)
 
 @app.route("/")
